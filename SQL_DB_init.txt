@@ -1,0 +1,7 @@
+CREATE DATABASE customerinfo;
+CREATE TABLE customermaindata(
+    id int unsigned AUTO_INCREMENT PRIMARY KEY,
+    lastName varchar(64),
+    firstName varchar(64),
+    fathersName varchar(64)
+);

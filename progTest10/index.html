@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Таблица с кнопками</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+<body>
+    <table id="tableCustomerInfo">
+        <thead>
+            <tr>
+                <th>Фамилия</th>
+                <th>Имя</th>
+                <th>Отчество</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="form">
+                <td><input type="text" id="lastNameInput"></td>
+                <td><input type="text" id="firstNameInput"></td>
+                <td><input type="text" id="fathersNameInput"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button id="addButton" onclick="addRow()">Добавить</button>
+    <button id="editButton" onclick="updateRow()">Изменить</button>
+    <button id="deleteButton" onclick="deleteRow()">Удалить</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
